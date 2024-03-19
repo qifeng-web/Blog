@@ -1,7 +1,7 @@
 {
   "name": "github-demo",
   "version": "0.1.0",
-  "homepage": "https://qifeng-web.github.io/Blog/",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
