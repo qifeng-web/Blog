@@ -10,7 +10,7 @@ import { ConfigProvider } from 'antd';
 import zhCN from 'antd/locale/zh_CN';
 import dayjs from 'dayjs';
 import 'dayjs/locale/zh-cn';
-import { Router } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 import App from './entry/App';
 import { history } from './entry/router';
@@ -26,8 +26,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <ConfigProvider locale={zhCN} autoInsertSpaceInButton>
-    <Router history={history}>
+    <HashRouter>
       <App />
-    </Router>
+    </HashRouter>
   </ConfigProvider>
 );
