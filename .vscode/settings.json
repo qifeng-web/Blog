@@ -67,5 +67,8 @@
             "rule": "import/no-extraneous-dependencies",
             "severity": "off"
         }
+    ],
+    "cSpell.words": [
+        "antd"
     ]
 }
